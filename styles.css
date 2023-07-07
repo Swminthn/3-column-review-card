@@ -1,0 +1,134 @@
+@font-face {
+    font-family: font1;
+    src: url(./Assets/Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(./Assets/Lexend_Deca/LexendDeca-VariableFont_wght.ttf);
+
+}
+
+*{
+    box-sizing: border-box;
+   
+    
+}
+
+html{
+    scroll-behavior: smooth;  /* to enable smooth scrolling */
+       
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    min-height: 100%;
+ 
+}
+body{
+    
+    line-height: normal;
+    margin: auto;
+    min-height: 100%;
+    font-size: 15px;
+    color: white;
+
+
+
+    
+    
+}
+.container-fluid{
+    max-width: 850px;
+    width : auto;
+    background:#fff;
+    display: flex;
+    justify-content: center;
+    
+    margin: auto;
+    position: relative;
+    
+
+    
+ 
+    
+}
+.container{
+   
+    width: 100%;
+    flex-grow: 1;
+    padding:50px;
+
+    
+    
+}
+.container:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.item {
+    margin: 20px 0px 20px 0px;
+}
+h1{
+    font-family: font1;
+    text-transform: uppercase;
+    margin: 20px 0px 20px 0px;
+    font-size: 2.5rem;
+}
+p{
+    font-family: font2;
+    line-height: 1.8rem;
+    padding-bottom: 40px;
+    padding-top:20px ;
+}
+button{
+    border: 2px solid #fff;
+    font-family: font2;
+    padding: 10px 20px;
+    border-radius: 20px;
+    justify-content: baseline;
+    
+    
+}
+
+button:hover{
+    cursor: pointer;
+    color:#fff;
+    background-color: transparent;
+}
+
+.orange-color{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+    
+}
+.green-color{
+    background-color: hsl(184, 100%, 22%);
+}
+.dark-green-color{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.btn1{
+    color: hsl(31, 77%, 52%);
+}
+.btn2{
+    color:hsl(184, 100%, 22%);
+}
+.btn3{
+    color:hsl(179, 100%, 13%);
+}
+
+@media (max-width:656px){
+    .container-fluid{
+        flex-direction: column;
+    
+        margin: 10%;
+     
+    }
+    .orange-color{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .dark-green-color{
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+

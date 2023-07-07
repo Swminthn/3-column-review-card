@@ -1,0 +1,1 @@
+Welcome and suggest better way to code and better technic survive
